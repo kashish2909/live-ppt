@@ -8,7 +8,7 @@ var server=app.listen(PORT,function () {
 });
 
 
-app.use(express.static('public/reveal.js'));
+app.use(express.static('public/reveal'));
 
 var io=socket(server);
 
