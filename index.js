@@ -17,7 +17,6 @@ io.on('connection',function(socket){
 
     socket.on('change',function(data)
     {
-        //console.log("on server side");
         io.sockets.emit('change',data);
     });
 });
